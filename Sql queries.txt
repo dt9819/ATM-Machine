@@ -1,0 +1,11 @@
+create database ATM_Machine;
+
+use ATM_Machine;
+
+create table admin(card_no integer(10), pin_no integer(4));
+
+insert into admin values(987654321,9876);
+insert into admin values(123456789,1234);
+insert into admin values(963258741,9632);
+insert into admin values(147852369,1478);
+insert into admin values(1,1);
